@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title> 
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="/action.php"> 
+        <h1>Registration Form</h1>
+       <!-- <input type="text" placeholder="Type Something here">-->
+        <input type="text" placeholder="User name"><br><br>
+        <input type="password" placeholder="Password"><br><br>
+         <h3>Selcte your Class</h3> 
+        <label for="101">
+        <input type="radio" value="Class XI" id="101" name="Class">Class XI
+        </label><br><br>
+        <label for="102"> 
+        <input type="radio" value="Class XII" id="102" name="Class">Class XII
+        </label><br><br>
+    <!--Multiple Selected-->
+    <h3>Selcte your Subject</h3>
+        <label for="Maths">
+            <input type="checkbox" value="math" name="Subject" id="101">Maths
+        </label><br><br>
+        <label for="Physics">
+            <input type="checkbox" value="pys" name="Subject" id="102">Physics
+        </label><br><br> 
+        <label for="Chemistry">
+            <input type="checkbox" value="Chem" name="Subject" id="103">Chemistry
+        </label><br><br>
+        <label for="Bio">
+            <input type="checkbox" value="bio" name="Subject" id="104">Biology
+        </label><br><br>
+        <h3>Select your City</h3>
+        <select name="City">
+         
+            <option value="Dilhi">Delhi</option>
+            <option value="Benglore">Benglore</option>
+            <option value="Indore">Indore</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Betul">Betul</option>
+            <option value="Ujjain">Ujjain</option>
+        </select>
+        <br><br>
+
+        <textarea name="feedback" id="101" placeholder="Please give your valueble here" rows="5">Feedback :-</textarea><br>
+
+        <input type="Submit" value="Submit" >
+
+    </form><br>
+    
+</body>
+</html>
